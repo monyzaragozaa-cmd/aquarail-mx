@@ -7,7 +7,7 @@ import model from '../../data/model-metadata.json';
 import {estimate,lookupTicket,STATUS_LABELS,verifyTicket} from '../lib/logic.mjs';
 type Ticket=(typeof tickets)[number];
 const sampleIds=tickets.map(t=>t.ticketId);
-const date=(value:string)=>new Date(value).toLocaleString('es-MX',{dateStyle:'medium',timeStyle:'short'});
+const date=(value:string)=>new Date(value).toLocaleString('es-MX',{dateStyle:'medium',timeStyle:'short',timeZone:'America/Mexico_City'});
 export default function Home(){
  const [query,setQuery]=useState('FUGA-DEMO-101');const [selected,setSelected]=useState<Ticket|null>(tickets[0]);const [error,setError]=useState('');
  const [showDetails,setShowDetails]=useState(false);
