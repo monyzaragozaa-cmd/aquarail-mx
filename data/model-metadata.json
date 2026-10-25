@@ -1,0 +1,19 @@
+{
+  "version": "synthetic-ols-v1",
+  "seed": 11024,
+  "trainingCount": 60,
+  "holdoutCount": 20,
+  "features": [
+    "pressureDrop",
+    "flowAnomaly",
+    "reportAge"
+  ],
+  "coefficients": [
+    7.5150873417473205,
+    35.735894704002334,
+    38.52657917226439,
+    13.851716397602887
+  ],
+  "syntheticHoldoutMAE": 2.331,
+  "disclaimer": "SOLO DATOS SINTÉTICOS. No predice resultados municipales, no confirma fugas y no asigna prioridad operativa."
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "ticketId": "FUGA-DEMO-101",
+    "neighborhood": "Iztapalapa",
+    "latitude": 19.345,
+    "longitude": -99.065,
+    "precision": "FICTIONAL_APPROXIMATE_NEIGHBORHOOD"
+  },
+  {
+    "ticketId": "FUGA-DEMO-102",
+    "neighborhood": "Gustavo A. Madero",
+    "latitude": 19.495,
+    "longitude": -99.11,
+    "precision": "FICTIONAL_APPROXIMATE_NEIGHBORHOOD"
+  },
+  {
+    "ticketId": "FUGA-DEMO-103",
+    "neighborhood": "Tláhuac",
+    "latitude": 19.29,
+    "longitude": -99.005,
+    "precision": "FICTIONAL_APPROXIMATE_NEIGHBORHOOD"
+  },
+  {
+    "ticketId": "FUGA-DEMO-104",
+    "neighborhood": "Xochimilco",
+    "latitude": 19.255,
+    "longitude": -99.1,
+    "precision": "FICTIONAL_APPROXIMATE_NEIGHBORHOOD"
+  }
+]

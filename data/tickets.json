@@ -1,0 +1,130 @@
+[
+  {
+    "ticketId": "FUGA-DEMO-101",
+    "neighborhood": "Iztapalapa",
+    "status": "suspected",
+    "waterServiceState": "unknown",
+    "updatedAt": "2026-10-10T14:00:00-06:00",
+    "nextAction": "Solicitar revisión física",
+    "responsibleRole": "Equipo de inspección (genérico)",
+    "humanEventHistory": [
+      {
+        "eventType": "REPORTED",
+        "description": "Reporte ciudadano recibido",
+        "timestamp": "2026-10-10T14:00:00-06:00",
+        "reviewerRole": "Persona reportante (simulada)",
+        "evidenceLabel": "REPORTADO / SIN CONFIRMAR",
+        "sourceType": "FICTIONAL_HUMAN_RECORD"
+      }
+    ],
+    "fictional": true
+  },
+  {
+    "ticketId": "FUGA-DEMO-102",
+    "neighborhood": "Gustavo A. Madero",
+    "status": "confirmed",
+    "waterServiceState": "unknown",
+    "updatedAt": "2026-10-12T14:00:00-06:00",
+    "nextAction": "Programar atención según revisión humana",
+    "responsibleRole": "Equipo operativo (genérico)",
+    "humanEventHistory": [
+      {
+        "eventType": "REPORTED",
+        "description": "Reporte ciudadano recibido",
+        "timestamp": "2026-10-11T14:00:00-06:00",
+        "reviewerRole": "Persona reportante (simulada)",
+        "evidenceLabel": "REPORTADO / SIN CONFIRMAR",
+        "sourceType": "FICTIONAL_HUMAN_RECORD"
+      },
+      {
+        "eventType": "PHYSICALLY_CONFIRMED",
+        "description": "Inspección física registrada",
+        "timestamp": "2026-10-12T14:00:00-06:00",
+        "reviewerRole": "Personal de revisión (simulado)",
+        "evidenceLabel": "REGISTRO HUMANO FICTICIO",
+        "sourceType": "FICTIONAL_HUMAN_RECORD"
+      }
+    ],
+    "fictional": true
+  },
+  {
+    "ticketId": "FUGA-DEMO-103",
+    "neighborhood": "Tláhuac",
+    "status": "repaired",
+    "waterServiceState": "unknown",
+    "updatedAt": "2026-10-14T14:00:00-06:00",
+    "nextAction": "Verificar resultado de la reparación",
+    "responsibleRole": "Equipo de verificación (genérico)",
+    "humanEventHistory": [
+      {
+        "eventType": "REPORTED",
+        "description": "Reporte ciudadano recibido",
+        "timestamp": "2026-10-12T14:00:00-06:00",
+        "reviewerRole": "Persona reportante (simulada)",
+        "evidenceLabel": "REPORTADO / SIN CONFIRMAR",
+        "sourceType": "FICTIONAL_HUMAN_RECORD"
+      },
+      {
+        "eventType": "PHYSICALLY_CONFIRMED",
+        "description": "Inspección física registrada",
+        "timestamp": "2026-10-13T14:00:00-06:00",
+        "reviewerRole": "Personal de revisión (simulado)",
+        "evidenceLabel": "REGISTRO HUMANO FICTICIO",
+        "sourceType": "FICTIONAL_HUMAN_RECORD"
+      },
+      {
+        "eventType": "REPAIR_COMPLETED",
+        "description": "Reparación registrada",
+        "timestamp": "2026-10-14T14:00:00-06:00",
+        "reviewerRole": "Personal de revisión (simulado)",
+        "evidenceLabel": "REGISTRO HUMANO FICTICIO",
+        "sourceType": "FICTIONAL_HUMAN_RECORD"
+      }
+    ],
+    "fictional": true
+  },
+  {
+    "ticketId": "FUGA-DEMO-104",
+    "neighborhood": "Xochimilco",
+    "status": "verified",
+    "waterServiceState": "unknown",
+    "updatedAt": "2026-10-16T14:00:00-06:00",
+    "nextAction": "Continuar seguimiento del servicio por canales oficiales",
+    "responsibleRole": "Personal de atención (genérico)",
+    "humanEventHistory": [
+      {
+        "eventType": "REPORTED",
+        "description": "Reporte ciudadano recibido",
+        "timestamp": "2026-10-13T14:00:00-06:00",
+        "reviewerRole": "Persona reportante (simulada)",
+        "evidenceLabel": "REPORTADO / SIN CONFIRMAR",
+        "sourceType": "FICTIONAL_HUMAN_RECORD"
+      },
+      {
+        "eventType": "PHYSICALLY_CONFIRMED",
+        "description": "Inspección física registrada",
+        "timestamp": "2026-10-14T14:00:00-06:00",
+        "reviewerRole": "Personal de revisión (simulado)",
+        "evidenceLabel": "REGISTRO HUMANO FICTICIO",
+        "sourceType": "FICTIONAL_HUMAN_RECORD"
+      },
+      {
+        "eventType": "REPAIR_COMPLETED",
+        "description": "Reparación registrada",
+        "timestamp": "2026-10-15T14:00:00-06:00",
+        "reviewerRole": "Personal de revisión (simulado)",
+        "evidenceLabel": "REGISTRO HUMANO FICTICIO",
+        "sourceType": "FICTIONAL_HUMAN_RECORD"
+      },
+      {
+        "eventType": "OUTCOME_VERIFIED",
+        "description": "Resultado de reparación verificado",
+        "timestamp": "2026-10-16T14:00:00-06:00",
+        "reviewerRole": "Personal de revisión (simulado)",
+        "evidenceLabel": "REGISTRO HUMANO FICTICIO",
+        "sourceType": "FICTIONAL_HUMAN_RECORD"
+      }
+    ],
+    "fictional": true
+  }
+]
